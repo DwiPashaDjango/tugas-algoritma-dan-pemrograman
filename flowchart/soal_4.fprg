@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ACER"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-11-02 05:11:38 PM"/>
+        <attribute name="created" value="QUNFUjtMQVBUT1AtRTdST0RHUjA7MjAyMi0xMS0wMjswNTowODowMCBQTTsyNjEz"/>
+        <attribute name="edited" value="QUNFUjtMQVBUT1AtRTdST0RHUjA7MjAyMi0xMS0wMjswNToxMTozOCBQTTsxOzI3MjY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a" type="Integer" array="False" size=""/>
+            <input variable="a"/>
+            <if expression="a &gt; 0">
+                <then>
+                    <output expression="a &amp; &quot;Adalah Bilangan Positif&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="a &amp; &quot;Adalah Bilangan Negatif&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

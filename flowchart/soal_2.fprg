@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ACER"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-11-02 05:23:08 PM"/>
+        <attribute name="created" value="QUNFUjtMQVBUT1AtRTdST0RHUjA7MjAyMi0xMS0wMjswNToxMjowMSBQTTsyNjA5"/>
+        <attribute name="edited" value="QUNFUjtMQVBUT1AtRTdST0RHUjA7MjAyMi0xMS0wMjswNToyMzowOCBQTTsxOzI3MjY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c, d" type="Integer" array="False" size=""/>
+            <input variable="a"/>
+            <input variable="b"/>
+            <if expression="a + b &lt; 10">
+                <then>
+                    <assign variable="c" expression="a - b"/>
+                    <output expression="c" newline="True"/>
+                </then>
+                <else>
+                    <assign variable="c" expression="a + b"/>
+                    <assign variable="d" expression="2 * c + b"/>
+                    <output expression="c &amp; d" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ACER"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-11-02 05:51:22 PM"/>
+        <attribute name="created" value="QUNFUjtMQVBUT1AtRTdST0RHUjA7MjAyMi0xMS0wMjswNTo0NTozMiBQTTsyNjE5"/>
+        <attribute name="edited" value="QUNFUjtMQVBUT1AtRTdST0RHUjA7MjAyMi0xMS0wMjswNTo1MToyMiBQTTsxOzI3MjM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="jam, total" type="Integer" array="False" size=""/>
+            <input variable="jam"/>
+            <if expression="jam == 50">
+                <then>
+                    <output expression="&quot;Tarif Dari &quot; &amp; jam &amp; &quot; Pemakaian Adalah 5000&quot;" newline="True"/>
+                </then>
+                <else>
+                    <assign variable="total" expression="(jam * 5) + 5000"/>
+                    <output expression="&quot;Tarif Dari &quot; &amp; jam &amp; &quot;Pemakaian Adalah &quot; &amp; total" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

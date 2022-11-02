@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ACER"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-11-02 05:44:04 PM"/>
+        <attribute name="created" value="QUNFUjtMQVBUT1AtRTdST0RHUjA7MjAyMi0xMS0wMjswNTozODo0NSBQTTsyNjI1"/>
+        <attribute name="edited" value="QUNFUjtMQVBUT1AtRTdST0RHUjA7MjAyMi0xMS0wMjswNTo0NDowNCBQTTsxOzI3MjU="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="gol" type="String" array="False" size=""/>
+            <declare name="kwh" type="Integer" array="False" size=""/>
+            <declare name="total" type="Real" array="False" size=""/>
+            <input variable="gol"/>
+            <input variable="kwh"/>
+            <if expression="gol = &quot;A&quot;">
+                <then>
+                    <assign variable="total" expression="(20 * kwh) + 5000"/>
+                    <output expression="&quot;Total Pembayaran Tagihan Listrik Anda Adalah &quot; &amp; total" newline="True"/>
+                </then>
+                <else>
+                    <assign variable="total" expression="(30 * kwh) + 7500"/>
+                    <output expression="&quot;Total Tagihan Pembayaran Listrik Anda Adalah &quot; &amp; total" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
