@@ -6,4 +6,4 @@ if gol == 'A' :
     print('Total Pembayaran Listrik Anda Adalah', total)
 else:
     total = 30 * kwh + 7500
-    print('Total Pembayaran Listrik Anda', total)
+    print('Total Pembayaran Listrik Anda Adalah', total)
